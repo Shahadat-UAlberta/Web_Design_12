@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+body{
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+.basic{
+	background: #f1c40f;
+	padding: 20px 0;
+	text-align: center;
+}
+.basic h1{
+	margin-bottom: 14px;
+	color: #c0392b;
+	font-size: 45px;
+}
+.basic p{
+	color: #c0392b;
+}
+
+.basic button{
+	display: none;
+}
+
+.section{
+	background: #ecf0f1;
+	padding: 100px 0;
+
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.section-title{
+	text-align: center;
+	padding-bottom: 45px;
+}
+.section-title h2{
+	font-size: 40px;
+}
+
+.content{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.content .item{
+	width: 23%;
+}
+
+.content .item h4{
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+
+
+/*  Medium Screen */
+@media (max-width: 1000px) {
+
+	.basic{
+		background: #2ecc71;
+	}
+	.basic h1{
+		color: #2c3e50;
+	}
+	.basic p{
+		color: #2c3e50;
+		font-size: 18px;
+	}
+	.content .item{
+		width: 48%;
+	}
+
+
+
+
+}
+
+
+/* Small Screen */
+@media (max-width: 500px) {
+
+	.basic{
+		background: #2c3e50;
+	}
+	.basic h1{
+		color: #fff;
+	}
+	.basic p{
+		color: #fff;
+		display: none;
+	}
+	.basic button{
+		display: inline-block;
+		background: transparent;
+		color: #fff;
+		padding: 8px 30px;
+		border: 1px solid #fff;
+	}
+	.content .item{
+		width: 100%;
+	}
+
+
+}

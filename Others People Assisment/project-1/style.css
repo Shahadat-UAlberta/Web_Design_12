@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Baloo Bhai 2';
+}
+header{
+    background: #f5f5f5;
+    height: 80px;
+   
+   
+}
+.navbar{
+    
+    position: relative;
+    width: 80%;
+    top: 3px;
+    margin: auto;
+    padding: 4px 60px;
+    display: flex;
+
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    
+    
+}
+nav{
+    position: relative;
+    left: 65%;
+    top: 14px;
+}
+
+nav > ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul  a{
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul a:hover{
+    color:#368a66;
+}
+
+nav ul ul{
+    position: absolute;
+}
+nav ul ul {
+    background:rgba(245, 245, 245, 0.8) ;
+    padding: 4px;
+    text-align: center; 
+    display: none;
+    z-index: 2;
+}
+nav ul li:hover ul{
+    display: block;
+}
+.container{
+    background-image: url(images/img-1.png);
+    height: 580px;
+   background-position: center;
+   background-size: cover;
+    
+}
+.overlay{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 290px 0;
+}
+.content{
+    text-align: center;
+    width: 70%;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+.content h2{
+    font-size: 70px;	
+    padding: 10px;
+      
+}
+.content p{
+    font-size: 22px;
+    
+}
+.content a{
+   text-decoration: none;
+   color: black;
+   font-size: 22px;
+   padding: 4px 35px;
+   
+   border-radius: 8px;
+   color: #fff;
+   background: #448167;
+}
+.content a:hover{
+    background: black;
+}
+.about-us{
+    background: #b9d8ca ;
+    height: 800px ;
+}
+.about{
+    background:#f5f5f5;
+    width: 70%;
+    margin: auto;
+    
+    position: relative;
+    top: 100px;
+    display: flex;
+    padding: 60px 0;
+    
+}
+.about .text{
+    width: 45%;
+    padding: 80px 65px;
+
+}
+.about h5{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+}
+.about h4{
+    font-size: 35px;
+}
+.about ul{
+   font-size: 30px;
+}
+.img-2 img{
+    width: 100%;
+}
+
+.img-2{
+    width:55%;
+}
+.about a{
+    text-decoration: none;
+   color: black;
+   font-size: 22px;
+   padding: 5px 45px;
+   
+   border-radius: 8px;
+   color: #fff;
+   background: #52a782;
+}
+.about a:hover{
+    background: black;
+}
+.service{
+    background: #b9d8ca ;
+    height: 800px ;
+    text-align: center;
+    padding-top: 150px;
+    color: #368a66; ;
+}
+.service h5{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.service h3{
+    font-size: 40px;
+}
+.feature{
+    width: 65%;
+    margin: auto;
+   padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.feature-1 img{
+    width: 80%;
+  
+}
+.feature-1{
+    width: 32%;
+    background:#fff;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.feature-1 p{
+    font-size: 20px;
+    padding-bottom: 20px;
+    
+}
+.feature-1 h6{
+    font-size: 25px;
+}
+.feature-1 a{
+    text-decoration: none;
+    
+    font-size: 22px;
+    padding: 3px 35px;
+    
+    border-radius: 8px;
+    color: #fff;
+    background: #52a782;
+}
+.feature a:hover{
+    background: black;
+}
+.feature-1:hover{
+   
+    box-shadow: 1px 1px  rgb(116, 116, 116);
+}
+.contact{
+    background: #b9d8ca ;
+    height: 400px ;
+    display: flex;
+    padding: 0 80px;
+    justify-content: space-between;
+}
+.sm{
+    width: 30%;
+    padding-left: 20px;
+    
+}
+.sm h5{
+    font-size: 40px;
+    color:#368a66; ;
+}
+.p-1{
+    font-weight: bold;
+    font-size: 22px;
+    padding: 12px 0;
+}
+.p-2{
+   font-size: 18px; 
+}
+
+.icon{
+    padding-top: 15px;
+  
+}
+.icon a{
+    text-decoration: none;
+    padding-left: 10px;
+    color: #368a66;
+    font-size: 30px;
+    transition: 0.3s;
+}
+.icon a :hover{
+    transform: scale(1.2);
+}
+.location{
+    width: 15%;
+   
+    font-size: 18px; 
+}
+.location h5{
+    font-size: 25px;
+    color: #368a66;
+   
+}
+.form{
+    padding-top: 20px;
+}
+
+.form input{
+    padding: 20px 105px;
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 15px;
+    border: 0;
+}
+#describe{
+    padding: 50px 105px;
+}
+#submit{
+    padding: 15px 160px;
+    background:#52a782;
+    color: #fff;
+    font-size: 20px;
+}
+#submit:hover{
+    background: black;
+}
+footer{
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+
+
+}

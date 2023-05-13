@@ -1,0 +1,194 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Lobster&family=Pacifico&display=swap');
+
+
+*{
+	margin: 0; 
+	padding: 0;
+}
+.menu{
+	background:linear-gradient(#dfe6e9,#b2bec3);
+}
+.menu > ul{
+	justify-content: center;
+	list-style: none;
+	display: flex;
+}
+.menu ul li a{
+	color:#222f3e;
+	text-decoration:none;
+	display: block;
+	font-weight: bold;
+	padding: 10px 30px;
+	text-transform: capitalize;
+	font-size: 20px;
+}
+
+.menu ul li a:hover{
+	background:#b2bec3;
+	transition: .3s;
+}
+
+img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.paragraph{
+	background: url(https://images.pexels.com/photos/5797899/pexels-photo-5797899.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+	background-repeat: no repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+.paragraph-overlay{
+	background: rgba(0, 0, 0, .2);
+	padding: 280px 0;
+
+}
+.sitename{
+	font-family: 'Pacifico', cursive;
+}
+
+.paragraph h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 200;
+}
+.paragraph-overlay > a{
+	text-decoration: none;
+}
+.paragraph .paragraph-overlay > a:hover{
+	background:#636e72 ;
+	padding: 5px 16px;s
+}
+.paragraph .paragraph-overlay > a{
+	color: #fff;
+	border-radius: 20px;
+	padding: 5px 16px;
+	transition: .4s;
+}
+.paragraph-overlay input{
+	border-radius: 10px;
+	width: 20%;
+}
+.paragraph-overlay ul{
+	padding: 25px 0;
+	display: flex;
+	list-style: none;
+	justify-content: center;
+}
+.paragraph-overlay ul li{
+	padding: 0 10px;
+}
+.paragraph-overlay ul li a{
+	color: #fff;
+	font-size: 20px;
+}
+.content{
+	width: 100%;
+	margin: 0 auto;
+}
+.title h1{
+	text-align: center;
+	margin: 30px 0 30px;
+}
+.para1{
+	display: flex;
+	justify-content: space-between;
+		
+}
+.content{
+	background: linear-gradient(#dcdde1,#718093);
+}
+.para1 .write1{
+ width: 25%;
+ padding:50px 40px ;
+ transition: 2s;
+ flex-wrap:wrap;
+}
+.para1 .write1:hover{
+ background: linear-gradient(#8395a7,#222f3e);
+ transform: translateY(-10px);
+}
+.para1 .write1 i{
+	font-size: 50px;
+	display:flex;
+	justify-content: center;
+	padding: 20px 15px;
+
+}
+.para1 .write1 a{
+
+	padding: 10px 10px;
+	text-decoration: none;
+	color: black;
+}
+.para1 .write1 a:hover{
+	background: grey;
+	transition: 1s;
+
+}
+
+
+.box0{
+	width: 100%;
+	
+}
+.box {
+	background: linear-gradient(#b2bec3,#b2bec3);
+	display: flex;
+	justify-content: space-between;
+	text align-content: center;
+	padding: 80px 40px;
+	margin:20px 30px;
+
+}
+.box ul li a{
+	list-style: none;
+	text-decoration: none;
+
+}
+.pick{
+	width: 80%;
+	margin: 0 auto;
+}
+.collection{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: ;
+}
+.collection .genres{
+	margin-bottom: 60px;
+	width: 30%;
+	padding: 80px 90px;
+	background:linear-gradient(#b2bec3,#dfe6e9);
+	border-radius: 30px;
+	transition: 2s;
+}
+.collection .genres:hover{
+	background: linear-gradient(#636e72,#b2bec3);
+	transform: scale(1.1);
+}
+.collection .genres h2 a{
+	color: black;
+	text-decoration: none;
+}
+.favorite h1{
+	font-size: 50px;
+	font-family: 'Pacifico', cursive;
+}
+.title h1{
+	font-size: 30px;
+	font-family: 'Pacifico', cursive;
+	text-decoration: none;
+}
+.rights{
+	display: flex;
+	justify-content: center;
+}
+.conatiner .content .title h1{
+	color: black;
+	text-decoration: none;
+}

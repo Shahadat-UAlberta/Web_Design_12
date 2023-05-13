@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+body{
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.basic {
+	background: #e67e22;
+	padding: 20px 0;
+	text-align: center;
+	
+}
+
+.basic h1{
+	margin-bottom: 14px;
+	color: #34495e;
+	font-size: 45px;
+}
+.basic p{
+	color: #34495e;
+}
+
+.basic button{
+	display: none;
+}
+
+.section{
+	background: #ecf0f1;
+	padding: 100px 0px;
+}
+
+.container{
+	
+	width: 80%;
+	margin: 0 auto;	
+}
+.section-title{
+	text-align: center;
+	padding-bottom: 45px;
+}
+.section-title h2{
+	font-size: 40px;
+}
+.content{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.content .item{
+	width: 23%;
+	box-shadow: -15px 15px 55px red;
+}
+.content .item h4{
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+
+
+
+/* Medium Screen */
+@media (max-width: 1000px) {
+	.basic{
+		background: #2ecc71;
+	}
+	.basic h1{
+		color: #ecf0f1;
+	}
+	.basic p{
+	color: #e74c3c;
+	font-size: 18px;
+	}
+	.content .item{
+	width: 48%;
+}
+}
+
+
+
+/* Small Screen */
+@media (max-width: 500px) {
+	.basic{
+		background: #34495e;
+	}
+	.basic h1{
+		color: #f1c40f;
+	}
+	.basic p{
+	color: #f1c40f;
+	display: none;
+	}
+
+	.basic button{
+		display: inline-block;
+		background: transparent;
+		color: #fff;
+		padding: 8px 30px;
+		border: 1px solid #fff;
+		border-radius: 20px;
+
+	}
+	
+	.content .item{
+	width: 100%;
+	}
+}
+	

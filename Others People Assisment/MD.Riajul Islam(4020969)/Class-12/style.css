@@ -1,0 +1,427 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+li {
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+.header-section {
+  background: url(images/dark-3.jpg) center;
+  width: 100%;
+  height: 100vh;
+}
+.header {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  height: 100vh;
+}
+.header-first {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  z-index: 2;
+}
+.header-first .logo h1 {
+  margin: 20px 0 0 30px;
+  font-size: 40px;
+}
+.header-first .nav {
+  margin: 30px 0 0 0;
+}
+.header-first .nav ul {
+  display: flex;
+}
+.header-first .nav ul li a {
+  font-size: 22px;
+  padding: 10px 30px;
+}
+.header-first .nav ul li a:hover {
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
+.welcome {
+  text-align: center;
+  position: absolute;
+  top: 250px;
+  left: 400px;
+}
+.welcome h3 {
+  font-size: 30px;
+  padding: 20px 0;
+}
+.welcome h2 {
+  font-size: 40px;
+  padding: 20px 0;
+}
+.welcome p {
+  font-size: 20px;
+  padding: 20px 0;
+}
+.welcome a {
+  border: 4px solid white;
+  color: white;
+  border-radius: 50px;
+  padding: 10px;
+  margin-top: 20px;
+  display: inline-block;
+  background: linear-gradient(to right, white 50%, black 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.8s;
+}
+/* Fill color left to right */
+.welcome a:hover {
+  background-position: left bottom;
+  color: black;
+  font-weight: bold;
+}
+/* About Me Section */
+.about-me {
+  background-color: #ecf0f1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 600px;
+  margin: 100px 0;
+}
+.picture {
+  width: 40%;
+}
+.picture img {
+  width: 400px;
+  height: 500px;
+  margin: 40px 100px;
+}
+.aboutme-text {
+  width: 40%;
+  margin: 30px auto;
+}
+.aboutme-text h2 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+.aboutme-text h3 {
+  font-size: 28px;
+  margin: 0 0 10px 0;
+}
+.aboutme-text p {
+  font-size: 25px;
+}
+.aboutme-icon a i {
+  color: white;
+  font-size: 30px;
+  margin: 30px 10px 0 0;
+  border: 2px solid black;
+  border-width: 2px;
+  border-radius: 50px;
+  background-color: black;
+  padding: 5px;
+}
+.aboutme-icon a i:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.3s;
+}
+/* Services Section */
+.services {
+  margin: 150px 0;
+  text-align: center;
+}
+.services .card1 {
+  display: flex;
+  justify-content: space-around;
+}
+.services h2 {
+  font-size: 40px;
+  margin: 0 0 20px 0;
+}
+.services p {
+  font-size: 20px;
+  margin: 0 0 100px 0;
+}
+.card1 .card i {
+  font-size: 50px;
+  color: #ec6177;
+  margin: 40px 0;
+}
+.card {
+  width: 30%;
+  border: 1px solid #ecf0f1;
+  background-color: #ecf0f1;
+  text-align: center;
+  box-shadow: 0 0 5px black;
+}
+.card:hover {
+  transform: scale(1.01);
+  transition: all 0.3s;
+}
+.card h3 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+/* My Work Section */
+.work {
+  background-color: #ecf0f1;
+  text-align: center;
+  padding: 100px 50px;
+}
+.work h2 {
+  font-size: 40px;
+}
+.work p {
+  font-size: 20px;
+}
+.work-nav {
+  display: inline-block;
+  text-align: center;
+}
+.work-nav ul {
+  display: flex;
+}
+.work-nav ul li a {
+  color: white;
+  margin: 50px;
+  display: block;
+  padding: 10px;
+  font-size: 25px;
+  border: 4px solid white;
+  border-radius: 50px;
+  background: linear-gradient(to right, white 50%, black 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.6s;
+}
+.work-nav ul li a:hover {
+  background-position: left bottom;
+  color: black;
+  font-weight: bold;
+}
+.img1 {
+  width: 30%;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+}
+.img1 img {
+  height: 100%;
+  width: 100%;
+}
+/* img overlay start */
+/* 1 */
+.img-overlay1 {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+.img1:hover .img-overlay1 {
+  top: 0;
+  transition: all 0.7s;
+}
+/* 2 */
+.img-overlay2 {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+.img1:hover .img-overlay2 {
+  bottom: 0;
+  transition: all 0.7s;
+}
+/* 3 */
+.img-overlay3 {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 100%;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+.img1:hover .img-overlay3 {
+  left: 0;
+  transition: all 0.7s;
+}
+/* 4 */
+.img-overlay4 {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  right: 100%;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+.img1:hover .img-overlay4 {
+  right: 0;
+  transition: all 0.7s;
+}
+/* 5 */
+.img-overlay5 {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 100%;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+.img1:hover .img-overlay5 {
+  left: 0;
+  transition: all 0.7s;
+}
+/* 6 */
+.img-overlay6 {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+.img1:hover .img-overlay6 {
+  bottom: 0;
+  transition: all 0.7s;
+}
+.work-port1 a {
+  color: white;
+  margin: 50px;
+  display: inline-block;
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 50px;
+  background: linear-gradient(to right, white 50%, black 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.8s;
+}
+.work-port1 a:hover {
+  color: black;
+  background-position: left bottom;
+  font-weight: bold;
+}
+.work-port2 a {
+  color: white;
+  margin: 50px;
+  display: inline-block;
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 50px;
+  background: linear-gradient(to right, white 50%, black 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.8s;
+}
+.work-port2 a:hover {
+  color: black;
+  background-position: left bottom;
+  font-weight: bold;
+}
+.work-port1 h2,
+.work-port2 h2 {
+  margin-top: 150px;
+}
+/* img overlay end */
+.work-port1,
+.work-port2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+/* Contact Section */
+.contact {
+  text-align: center;
+  margin: 150px 0 100px 0;
+  padding: 40px 0;
+}
+.contact h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.contact p {
+  font-size: 20px;
+}
+.contact-information {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 80px 0;
+}
+.contact-information i {
+  font-size: 50px;
+  color: #f26376;
+  padding: 20px 0;
+}
+.contact-information h3 {
+  font-size: 25px;
+}
+.contact-information h4 {
+  font-size: 25px;
+}
+/* Input Section */
+.input-section {
+  background-color: #ecf0f1;
+  padding: 50px 0;
+}
+.input-section input {
+  width: 40%;
+  height: 40px;
+  margin: 10px 0;
+}
+.input-section input[placeholder="Your Subject"],
+input[type="text"],
+input[type="email"],
+textarea[placeholder="Enter Your Message"] {
+  font-size: 20px;
+  background-color: #bdc3c7;
+  font-weight: bolder;
+}
+.input-section button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50px;
+  background: black;
+  color: white;
+}
+.input-section button:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+/* Footer Section */
+.footer-section {
+  background-color: #ecf0f1;
+  padding: 100px 0;
+  text-align: center;
+}
+.footer-icon {
+  display: inline-block;
+}
+.footer-icon i {
+  font-size: 30px;
+  margin: 30px 10px;
+  padding: 10px;
+}
+.footer-text {
+  font-size: 20px;
+}
+.footer-icon i:hover {
+  background-color: black;
+  border-radius: 50px;
+  color: white;
+}
